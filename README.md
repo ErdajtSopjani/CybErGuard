@@ -82,12 +82,15 @@ Here are a couple of steps you can follow to get started with using my tool
 <br>
 <br>
 
-1. Make sure you have python installed and the nmap with the metasploit framework.
+1. Make sure you have python installed and "Nmap" with "The Metasploit Framework". <br>
+   find links here: <br>
+   https://nmap.org/
+   https://www.metasploit.com/
 <br>
 <br>
 
 
-2. Clone the repo
+3. Clone the repo
    ```sh
    git clone https://github.com/ErdajtSopjani/CybErGuard
    ```
@@ -98,9 +101,9 @@ Here are a couple of steps you can follow to get started with using my tool
 3. Install python-nmap library
    ```sh
    pip install python-nmap
-   
-   or
-
+   ```
+or
+   ```sh
    python -m pip install python-nmap
    ```
    
