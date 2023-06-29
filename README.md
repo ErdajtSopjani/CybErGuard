@@ -1,3 +1,15 @@
+ ▄████▄▓██   ██▓ ▄▄▄▄   ▓█████  ██▀███    ▄████  █    ██  ▄▄▄       ██▀███  ▓█████▄ 
+▒██▀ ▀█ ▒██  ██▒▓█████▄ ▓█   ▀ ▓██ ▒ ██▒ ██▒ ▀█▒ ██  ▓██▒▒████▄    ▓██ ▒ ██▒▒██▀ ██▌
+▒▓█    ▄ ▒██ ██░▒██▒ ▄██▒███   ▓██ ░▄█ ▒▒██░▄▄▄░▓██  ▒██░▒██  ▀█▄  ▓██ ░▄█ ▒░██   █▌
+▒▓▓▄ ▄██▒░ ▐██▓░▒██░█▀  ▒▓█  ▄ ▒██▀▀█▄  ░▓█  ██▓▓▓█  ░██░░██▄▄▄▄██ ▒██▀▀█▄  ░▓█▄   ▌
+▒ ▓███▀ ░░ ██▒▓░░▓█  ▀█▓░▒████▒░██▓ ▒██▒░▒▓███▀▒▒▒█████▓  ▓█   ▓██▒░██▓ ▒██▒░▒████▓ 
+░ ░▒ ▒  ░ ██▒▒▒ ░▒▓███▀▒░░ ▒░ ░░ ▒▓ ░▒▓░ ░▒   ▒ ░▒▓▒ ▒ ▒  ▒▒   ▓▒█░░ ▒▓ ░▒▓░ ▒▒▓  ▒ 
+  ░  ▒  ▓██ ░▒░ ▒░▒   ░  ░ ░  ░  ░▒ ░ ▒░  ░   ░ ░░▒░ ░ ░   ▒   ▒▒ ░  ░▒ ░ ▒░ ░ ▒  ▒ 
+░       ▒ ▒ ░░   ░    ░    ░     ░░   ░ ░ ░   ░  ░░░ ░ ░   ░   ▒     ░░   ░  ░ ░  ░ 
+░ ░     ░ ░      ░         ░  ░   ░           ░    ░           ░  ░   ░        ░    
+░       ░ ░           ░                                                      ░      
+
+
 # CybErGuard
 <a name="readme-top"></a>
 
@@ -83,8 +95,29 @@ Here are a couple of steps you can follow to get started with using my tool
 <br>
 
 
-3. After that you need to install python-n
+3. Install python-nmap library
+   ```sh
+   pip install python-nmap
+   
+   or
+
+   python -m pip install python-nmap
    ```
+   
+4. Run it
+   ```sh
+   python3 CybErGuard.py {ip} -p {ports}
+   ```
+   example:
+        ```sh
+        python3 CybErGuard.py 192.168.0.1 -p 1-1000
+        ```
+    
+    or just run
+    ```sh
+    python3 CybErGuard.py -h
+    ```
+
 <br>
 <br>
 
