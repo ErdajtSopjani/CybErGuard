@@ -102,11 +102,12 @@ Here are a couple of steps you can follow to get started with using my tool
    ```sh
    pip install python-nmap
    ```
-or
+ or
    ```sh
    python -m pip install python-nmap
    ```
-   
+<br>
+<br>
 4. Run it
    ```sh
    python3 CybErGuard.py {ip} -p {ports}
@@ -117,9 +118,9 @@ or
         ```
     
     or just run
-    ```sh
-    python3 CybErGuard.py -h
-    ```
+     ```sh
+     python3 CybErGuard.py -h
+     ```
 
 <br>
 <br>
