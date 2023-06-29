@@ -1,0 +1,3 @@
+python-nmap
+
+# Make sure you have a fresh install of "Nmap" and "The MetaSploit Framework"
