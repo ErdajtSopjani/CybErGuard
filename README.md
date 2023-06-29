@@ -110,17 +110,12 @@ Here are a couple of steps you can follow to get started with using my tool
 <br>
 4. Run it
    ```sh
-   python3 CybErGuard.py {ip} -p {ports}
+   python3 CybErGuard.py -h
    ```
    example:
         ```sh
         python3 CybErGuard.py 192.168.0.1 -p 1-1000
         ```
-    
-    or just run
-     ```sh
-     python3 CybErGuard.py -h
-     ```
 
 <br>
 <br>
